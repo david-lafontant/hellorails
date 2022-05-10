@@ -1,0 +1,17 @@
+development: 
+  adapter: postgresql
+  database: hellorails_development
+  encoding: unicode
+  host: localhost
+  password: admin
+  pool: 5
+  username: postgres
+production: 
+  url: postgres://postgres:admin@localhost/hellorails_production
+test: 
+  adapter: postgresql
+  database: hellorails_test
+  url: postgres://postgres:admin@localhost/hellorails_test
+  encoding: unicode
+  password: admin
+  pool: 5
